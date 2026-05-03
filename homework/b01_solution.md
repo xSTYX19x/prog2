@@ -8,7 +8,7 @@
 ## 01.1 Commit von foo.java
 
 + `git add foo.java` --> foo.java wird in den Staging-Index eingetragen
-+ `git commit -m "V0.X - foo.java added` --> Neuer Commit auf **b03** mit foo.java
++ `git commit -m "V0.X - foo.java added"` --> Neuer Commit auf **b03** mit foo.java
 
 # 02 Git-Spiel
 
@@ -26,7 +26,7 @@ Das Repo **prog2_ybel_gitquest** wurde mit `git clone <link>` in IntelliJ kopier
 
 ## 02.2 Commit korrigieren
 
-An `tag 04.5` fehlen Exp-Punkte. Wir korrigieren den fehler, indem wir mit `git checkout <commit-id von tag 04.5>` den commit laden, die Punkte in der entsprechenden Datei **stats.md** anpassen und mit `git add stats.md` und `git commit --amend -m "tag 04.5"` neu committen. Jetzt ist an `tag 04.5` die richtige Menge Exp-Points hinterlegt.
+An `tag 04.5` fehlen Exp-Punkte. Wir korrigieren den fehler, indem wir mit `git checkout <commit-id von tag 04.5>` den commit laden, die Punkte in der entsprechenden Datei **stats.md** anpassen und mit `git add stats.md` und `git commit --amend -m "tag 04.5"` einen neuen commit erstellen, der den Alten ersetzt. Jetzt ist an `tag 04.5` die richtige Menge Exp-Points hinterlegt.
 
 ## 02.3 Geschichte fortführen
 
