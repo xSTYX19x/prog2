@@ -34,8 +34,5 @@ test {
 spotless {
     java {
         googleJavaFormat()          // einheitliches Formatting via Google Java Format
-        removeUnusedImports()       // automatisch ungenutzte Imports entfernen
-        trimTrailingWhitespace()    // Leerzeichen am Zeilenende entfernen
-        endWithNewline()            // Datei endet immer mit Newline
     }
 }
