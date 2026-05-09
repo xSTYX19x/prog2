@@ -4,9 +4,6 @@ plugins {
     id 'com.diffplug.spotless' version '7.0.3'
 }
 
-group = 'de.hsbi.prog2'
-version = '1.0.0'
-
 repositories {
     mavenCentral()
 }
